@@ -24,7 +24,7 @@ PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 DEBUG = not PRODUCTION
 
 # Allowed hosts
-ALLOWED_HOSTS = ["localhost", "127.0.0.1","andi.hakim42-footballnews.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1","andi-hakim42-footballnews.pbp.cs.ui.ac.id"]
 
 # Application definition
 INSTALLED_APPS = [
